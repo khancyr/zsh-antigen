@@ -29,5 +29,9 @@ antigen-bundle extract
 # Guess what to install when running an unknown command.
 antigen-bundle command-not-found
 
+antigen-bundle common-aliases
+
+antigen theme bira
+
 
 antigen-apply
