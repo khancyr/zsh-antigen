@@ -29,6 +29,11 @@ antigen-bundle extract
 # Guess what to install when running an unknown command.
 antigen-bundle command-not-found
 
+#	cp with progress bar (rsync)
+antigen-bundle cp
+
+#	cat with syntax highlight support
+antigen-bundle colorize
 antigen-bundle common-aliases
 
 antigen theme bira
