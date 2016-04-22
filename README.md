@@ -1,8 +1,10 @@
 # zsh-antigen
 
+Take from : https://github.com/mgdm/zsh-antigen
+
 ##Getting start :
 ```
-git clone https://github.com/mgdm/zsh-antigen.git ~/.zsh-antigen
+git clone https://github.com/khancyr/zsh-antigen.git ~/.zsh-antigen
 cd
 ln -s .zsh-antigen/zshrc .zshrc
 ```
