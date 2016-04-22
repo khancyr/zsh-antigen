@@ -40,3 +40,9 @@ antigen theme bira
 
 
 antigen-apply
+
+# ROS
+alias loadros="source /opt/ros/kinetic/setup.zsh"
+
+# APM
+alias loadapm="source $ZSHA_BASE/apm_aliases"
