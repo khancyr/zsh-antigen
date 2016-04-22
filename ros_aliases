@@ -1,0 +1,4 @@
+# Add ROS setup
+source /opt/ros/kinetic/setup.zsh
+
+export ROS_DISTRO=kinetic 
