@@ -1,4 +1,7 @@
 # Add ROS setup
 source /opt/ros/kinetic/setup.zsh
 
-export ROS_DISTRO=kinetic 
+export ROS_DISTRO=kinetic
+
+# Add source 
+alias sw="source ./devel/setup.zsh"
