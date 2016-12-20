@@ -11,11 +11,6 @@ antigen use oh-my-zsh
 # Help working with version control systems.
 antigen bundle git
 
-
-# Syntax highlighting bundle.
-antigen bundle zsh-users/zsh-syntax-highlighting
-
-
 # ZSH port of Fish shell's history search feature.
 antigen bundle zsh-users/zsh-history-substring-search
 
@@ -35,6 +30,9 @@ antigen bundle cp
 #	cat with syntax highlight support
 antigen bundle colorize
 antigen bundle common-aliases
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen theme bira
 
