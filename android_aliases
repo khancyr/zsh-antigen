@@ -1,0 +1,3 @@
+export PATH="/home/khancyr/Android/Sdk/tools:$PATH"
+export PATH="/home/khancyr/Android/Sdk/platform-tools:$PATH"
+

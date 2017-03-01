@@ -5,7 +5,7 @@
 export PATH="$HOME/Workspace/ardupilot/Tools/autotest:$PATH"
 
 # Add ccache tools
-export PATH="/usr/lib/ccache:$PATH"
+#export PATH="/usr/lib/ccache:$PATH"
 
 # Add Waf
 alias waf="$HOME/Workspace/ardupilot/modules/waf/waf-light"

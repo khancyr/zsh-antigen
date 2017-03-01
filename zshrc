@@ -10,6 +10,7 @@ antigen use oh-my-zsh
 
 # Help working with version control systems.
 antigen bundle git
+antigen bundle mercurial
 
 # ZSH port of Fish shell's history search feature.
 antigen bundle zsh-users/zsh-history-substring-search
@@ -44,3 +45,14 @@ alias loadROS="source $ZSHA_BASE/ros_aliases"
 
 # APM
 alias loadAPM="source $ZSHA_BASE/apm_aliases"
+
+# Android
+alias loadDroid="source $ZSHA_BASE/android_aliases"
+
+export PATH="/usr/lib/ccache:$PATH"
+
+# Coala completion : need pip install argcomplete
+autoload bashcompinit
+bashcompinit
+eval "$(register-python-argcomplete `which coala`)"
+
