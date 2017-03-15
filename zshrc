@@ -40,6 +40,8 @@ antigen theme bira
 
 antigen apply
 
+export PATH="/usr/lib/ccache:$PATH"
+
 # ROS
 alias loadROS="source $ZSHA_BASE/ros_aliases"
 
