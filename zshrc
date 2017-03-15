@@ -51,7 +51,10 @@ alias loadAPM="source $ZSHA_BASE/apm_aliases"
 # Android
 alias loadDroid="source $ZSHA_BASE/android_aliases"
 
-export PATH="/usr/lib/ccache:$PATH"
+# Distcc
+alias loadDistcc="source $ZSHA_BASE/distcc_aliases"
+
+
 
 # Coala completion : need pip install argcomplete
 autoload bashcompinit
