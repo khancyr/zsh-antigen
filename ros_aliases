@@ -5,3 +5,8 @@ export ROS_DISTRO=kinetic
 
 # Add source 
 alias sw="source ./devel/setup.zsh"
+
+if [ -f "./devel/setup.zsh" ]; then
+    sw
+fi
+
