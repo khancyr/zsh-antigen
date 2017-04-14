@@ -35,6 +35,8 @@ antigen bundle common-aliases
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
+antigen bundle zsh-users/zsh-completions
+
 antigen theme bira
 
 
@@ -57,7 +59,7 @@ alias loadDistcc="source $ZSHA_BASE/distcc_aliases"
 
 
 # Coala completion : need pip install argcomplete
-autoload bashcompinit
-bashcompinit
-eval "$(register-python-argcomplete `which coala`)"
+#autoload bashcompinit
+#bashcompinit
+#eval "$(register-python-argcomplete `which coala`)"
 
