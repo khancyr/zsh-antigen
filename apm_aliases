@@ -3,10 +3,12 @@
 
 # Add APM tools
 export PATH="$HOME/Workspace/ardupilot/Tools/autotest:$PATH"
-
+#export PATH="$HOME/Workspace/ap-beacon-uwb/Tools/autotest:$PATH"
 # Add ccache tools
 #export PATH="/usr/lib/ccache:$PATH"
 
 # Add Waf
 alias waf="$HOME/Workspace/ardupilot/modules/waf/waf-light"
+#alias waf="$HOME/Workspace/ap-beacon-uwb/modules/waf/waf-light"
 
+export MAP_SERVICE="MicrosoftHyb"
