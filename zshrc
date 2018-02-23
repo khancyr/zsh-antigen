@@ -47,6 +47,9 @@ export PATH="/usr/lib/ccache:$PATH"
 # ROS
 alias loadROS="source $ZSHA_BASE/ros_aliases"
 
+# Gazebo
+alias loadGazebo="source $ZSHA_BASE/gazebo_aliases"
+
 # APM
 alias loadAPM="source $ZSHA_BASE/apm_aliases"
 
