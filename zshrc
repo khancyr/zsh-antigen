@@ -59,6 +59,8 @@ alias loadDroid="source $ZSHA_BASE/android_aliases"
 # Distcc
 alias loadDistcc="source $ZSHA_BASE/distcc_aliases"
 
+export DEBFULLNAME="Pierre Kancir"
+export DEBEMAIL="khancyr@gmail.com"
 
 
 # Coala completion : need pip install argcomplete
@@ -66,3 +68,4 @@ alias loadDistcc="source $ZSHA_BASE/distcc_aliases"
 #bashcompinit
 #eval "$(register-python-argcomplete `which coala`)"
 
+export MAP_SERVICE="MicrosoftHyb"
