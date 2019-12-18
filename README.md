@@ -2,7 +2,7 @@
 
 Take from : https://github.com/mgdm/zsh-antigen
 
-##Getting start :
+## Getting start :
 ```
 sudo apt install git zsh
 git clone https://github.com/khancyr/zsh-antigen.git ~/.zsh-antigen
