@@ -69,3 +69,4 @@ export DEBEMAIL="khancyr@gmail.com"
 #eval "$(register-python-argcomplete `which coala`)"
 
 export MAP_SERVICE="MicrosoftHyb"
+source "$HOME/Workspace/ardupilot/Tools/completion/completion.zsh"
